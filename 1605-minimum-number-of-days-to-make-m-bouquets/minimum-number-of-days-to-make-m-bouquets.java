@@ -1,35 +1,35 @@
 class Solution {
+    public boolean fn(int[] arr , int limit, int m, int k){
+        int cnt = 0, total = 0, adj = 0;
+        for(int i=0; i< arr.length;i++){
+            if(arr[i] <= limit){
+                adj++;
+                if(adj == k){
+                    cnt++;
+                    adj = 0;
+                }
+            }
+            else{
+                adj=0;
+            }
+        }
+        return cnt >= m;
+    }
     public int minDays(int[] bloomDay, int m, int k) {
         int n = bloomDay.length;
-        if(n < m*k) return -1;
-        int lo=1;
-        int hi =0;
-        for( int b : bloomDay) hi = Math.max(hi, b);
+        int lo = 1, hi = 0, res = -1;
+        for(int i=0;i<n;i++){
+            hi = Math.max(hi , bloomDay[i]);
+        }
 
-        int res = -1;
-        while(lo<=hi){
+        while(lo <= hi){
             int mid = lo + (hi - lo)/2;
-            if(fn(mid, bloomDay, m,k) == true){
+            if(fn(bloomDay, mid, m, k)){
                 res = mid;
                 hi = mid-1;
             }
-            else lo = mid+1;
+            else lo = mid + 1;
         }
         return res;
-    }
-    public boolean fn(int currDay , int[] arr, int m,  int k){
-        int t = 0;
-        int cnt = 0;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i] <= currDay) t++;
-            else{
-                cnt += t/k;
-                t = 0;
-            }
-        }
-        cnt += t/k;
-        t = 0;
-        if(cnt>=m) return true;
-        return false;
     }
 }
