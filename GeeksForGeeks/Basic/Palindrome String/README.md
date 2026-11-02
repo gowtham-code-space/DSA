@@ -1,0 +1,20 @@
+# Palindrome String
+
+## Difficulty: Basic
+
+## Platform: GeeksForGeeks
+
+## Problem Link
+[View Problem](https://www.geeksforgeeks.org/problems/palindrome-string0817/1)
+
+## Solved On
+02 Nov 2026 at 11:54 am
+
+<h2><a href="https://www.geeksforgeeks.org/problems/palindrome-string0817/1">Palindrome String</a></h2><h3>Difficulty Level: Basic</h3><hr><p><span style="font-size: 14pt;">Given a string <strong>s</strong>, find if it is a palindrome.&nbsp;</span><span style="font-size: 14pt;">A string is considered a palindrome if it reads the same forwards and backwards.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>s = "abba"
+<strong>Output: </strong>true
+<strong>Explanation: </strong>"abba"<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> reads the same forwards </span><span class="hljs-built_in" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">and</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> backwards, so it </span><span class="hljs-built_in" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">is</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> a palindrome.</span></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> s = "abc" 
+<strong>Output:</strong> false
+<strong>Explanation: </strong>"abc"<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> does </span><span class="hljs-built_in" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">not</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> read the same forwards </span><span class="hljs-built_in" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">and</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> backwards, so it </span><span class="hljs-built_in" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">is</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> </span><span class="hljs-built_in" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">not</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> a palindrome.</span></span></pre>
