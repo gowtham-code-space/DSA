@@ -3,16 +3,18 @@ class Solution {
         int n = nums.length;
         int cnt = 0;
         int[] res = new int[n-k+1];
-        PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a,b) -> nums[b] - nums[a]);
+        Deque<Integer> q = new ArrayDeque<>();
 
         for(int i=0; i<n; i++){
-            maxHeap.add(i);
-
-            while(maxHeap.peek() <= i-k){
-                maxHeap.poll();
+            while(!q.isEmpty() && q.peek() < i-k+1){
+                q.poll();
             }
+            while(!q.isEmpty() && nums[q.peekLast()] < nums[i]){
+                q.pollLast();
+            }
+            q.add(i);
             if(i >= k-1){
-                res[i-k+1] = nums[maxHeap.peek()];
+                res[i-k+1] = nums[q.peek()];
             }
         }
 
