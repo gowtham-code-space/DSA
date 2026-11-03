@@ -1,22 +1,24 @@
 {
-  "totalSolved": 1,
-  "currentStreak": 1,
-  "maxStreak": 1,
-  "lastSyncDate": "2026-11-02",
+  "totalSolved": 2,
+  "currentStreak": 2,
+  "maxStreak": 2,
+  "lastSyncDate": "2026-11-03",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 0,
-    "medium": 0,
+    "medium": 1,
     "hard": 0,
     "basic": 1
   },
   "syncedProblems": {
-    "GeeksForGeeks_Palindrome_String": true
+    "GeeksForGeeks_Palindrome_String": true,
+    "GeeksForGeeks_Celebrity_Problem": true
   },
   "activityHistory": {
-    "2026-11-02": 1
+    "2026-11-02": 1,
+    "2026-11-03": 1
   },
   "todayProblems": [
-    "Palindrome String"
+    "Celebrity Problem"
   ]
 }
