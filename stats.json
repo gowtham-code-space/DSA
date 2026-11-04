@@ -1,24 +1,26 @@
 {
-  "totalSolved": 2,
-  "currentStreak": 2,
-  "maxStreak": 2,
-  "lastSyncDate": "2026-11-03",
+  "totalSolved": 3,
+  "currentStreak": 3,
+  "maxStreak": 3,
+  "lastSyncDate": "2026-11-04",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 0,
-    "medium": 1,
+    "medium": 2,
     "hard": 0,
     "basic": 1
   },
   "syncedProblems": {
     "GeeksForGeeks_Palindrome_String": true,
-    "GeeksForGeeks_Celebrity_Problem": true
+    "GeeksForGeeks_Celebrity_Problem": true,
+    "GeeksForGeeks_Count_Greater_on_Right_Queries": true
   },
   "activityHistory": {
     "2026-11-02": 1,
-    "2026-11-03": 1
+    "2026-11-03": 1,
+    "2026-11-04": 1
   },
   "todayProblems": [
-    "Celebrity Problem"
+    "Count Greater on Right Queries"
   ]
 }
