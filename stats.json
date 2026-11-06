@@ -1,11 +1,11 @@
 {
-  "totalSolved": 4,
-  "currentStreak": 3,
+  "totalSolved": 5,
+  "currentStreak": 1,
   "maxStreak": 3,
-  "lastSyncDate": "2026-11-04",
-  "todayCount": 2,
+  "lastSyncDate": "2026-11-06",
+  "todayCount": 1,
   "difficultyCounts": {
-    "easy": 0,
+    "easy": 1,
     "medium": 3,
     "hard": 0,
     "basic": 1
@@ -14,15 +14,16 @@
     "GeeksForGeeks_Palindrome_String": true,
     "GeeksForGeeks_Celebrity_Problem": true,
     "GeeksForGeeks_Count_Greater_on_Right_Queries": true,
-    "LeetCode_Longest_Palindromic_Substring": true
+    "LeetCode_Longest_Palindromic_Substring": true,
+    "LeetCode_Minimum_Moves_to_Equal_Array_Elements_III": true
   },
   "activityHistory": {
     "2026-11-02": 1,
     "2026-11-03": 1,
-    "2026-11-04": 2
+    "2026-11-04": 2,
+    "2026-11-06": 1
   },
   "todayProblems": [
-    "Count Greater on Right Queries",
-    "Longest Palindromic Substring"
+    "Minimum Moves to Equal Array Elements III"
   ]
 }
