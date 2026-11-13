@@ -1,13 +1,13 @@
 {
-  "totalSolved": 7,
+  "totalSolved": 8,
   "currentStreak": 1,
   "maxStreak": 3,
-  "lastSyncDate": "2026-11-08",
-  "todayCount": 2,
+  "lastSyncDate": "2026-11-13",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 3,
     "medium": 3,
-    "hard": 0,
+    "hard": 1,
     "basic": 1
   },
   "syncedProblems": {
@@ -17,17 +17,18 @@
     "LeetCode_Longest_Palindromic_Substring": true,
     "LeetCode_Minimum_Moves_to_Equal_Array_Elements_III": true,
     "LeetCode_Employee_Bonus": true,
-    "LeetCode_Replace_Employee_ID_With_The_Unique_Identifier": true
+    "LeetCode_Replace_Employee_ID_With_The_Unique_Identifier": true,
+    "LeetCode_Largest_Rectangle_in_Histogram": true
   },
   "activityHistory": {
     "2026-11-02": 1,
     "2026-11-03": 1,
     "2026-11-04": 2,
     "2026-11-06": 1,
-    "2026-11-08": 2
+    "2026-11-08": 2,
+    "2026-11-13": 1
   },
   "todayProblems": [
-    "Employee Bonus",
-    "Replace Employee ID With The Unique Identifier"
+    "Largest Rectangle in Histogram"
   ]
 }
