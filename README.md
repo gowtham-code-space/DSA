@@ -8,3 +8,4 @@
 | 6 | [Employee Bonus](./LeetCode/Easy/Employee%20Bonus) | [LeetCode](https://leetcode.com/problems/employee-bonus/) | Easy | 08 Nov 2026 | 09:24 am |
 | 7 | [Replace Employee ID With The Unique Identifier](./LeetCode/Easy/Replace%20Employee%20ID%20With%20The%20Unique%20Identifier) | [LeetCode](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/) | Easy | 08 Nov 2026 | 09:31 am |
 | 8 | [Largest Rectangle in Histogram](./LeetCode/Hard/Largest%20Rectangle%20in%20Histogram) | [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | 13 Nov 2026 | 08:06 pm |
+| 9 | [Reverse a Stack](./GeeksForGeeks/Medium/Reverse%20a%20Stack) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/reverse-a-stack/1) | Medium | 15 Nov 2026 | 05:26 pm |
