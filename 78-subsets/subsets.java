@@ -1,16 +1,23 @@
 class Solution {
+    List<List<Integer>> res = new ArrayList<>();
+    List<Integer> subSet = new ArrayList<>();
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> res = new ArrayList<>();
-        res.add(new ArrayList<>());
+       dfs(0 , nums);
+       return res; 
+    }
 
-        for (int num : nums) {
-            int size = res.size();
-            for (int i = 0; i < size; i++) {
-                List<Integer> curr = new ArrayList<>(res.get(i));
-                curr.add(num);
-                res.add(curr);
-            }
+    public void dfs(int idx, int[] nums){
+        int n = nums.length;
+        if(idx > n-1){
+            res.add(new ArrayList<>(subSet));
+            return;
         }
-        return res;
+        
+        subSet.add(nums[idx]);
+        dfs(idx+1, nums);
+
+        subSet.remove(subSet.size()-1);
+        dfs(idx+1, nums);
+
     }
 }
