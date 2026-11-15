@@ -1,0 +1,16 @@
+# All Subsequences of String
+
+## Difficulty: Medium
+
+## Platform: GeeksForGeeks
+
+## Problem Link
+[View Problem](https://www.geeksforgeeks.org/problems/power-set4302/1)
+
+## Solved On
+15 Nov 2026 at 06:45 pm
+
+<h2><a href="https://www.geeksforgeeks.org/problems/power-set4302/1">All Subsequences of String</a></h2><h3>Difficulty Level: Medium</h3><hr><p><span style="font-size: 18px;">Given a string <strong>s</strong>, generate all possible subsequences of the string (including the empty subsequence) and return them in lexicographical<strong> </strong>order.</span></p><p><span style="font-size: 18px;">A subsequence is obtained by deleting zero or more characters from the string without changing the relative order of the remaining characters.</span></p><p><span style="font-size: 14pt;"><span style="font-size: 12pt;"><strong style="font-size: 18px;">Examples:</strong></span></span></p><pre><span style="font-size: 18px;"><strong>Input : </strong>s = "abc"
+<strong>Output: </strong>["", "a", "ab", "abc", "ac", "b", "bc", "c"]
+<strong>Explanation: </strong>There are a total of 8 non-empty subsequences for the given string. </span></pre><pre><span style="font-size: 18px;"><strong>Input: </strong>s = "aa"
+<strong>Output: </strong>["", "a", "a", "aa"]</span></pre>
