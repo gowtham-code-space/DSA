@@ -10,3 +10,4 @@
 | 8 | [Largest Rectangle in Histogram](./LeetCode/Hard/Largest%20Rectangle%20in%20Histogram) | [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | 13 Nov 2026 | 08:06 pm |
 | 9 | [Reverse a Stack](./GeeksForGeeks/Medium/Reverse%20a%20Stack) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/reverse-a-stack/1) | Medium | 15 Nov 2026 | 05:26 pm |
 | 10 | [All Subsequences of String](./GeeksForGeeks/Medium/All%20Subsequences%20of%20String) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/power-set4302/1) | Medium | 15 Nov 2026 | 06:45 pm |
+| 11 | [Palindrome Number](./LeetCode/Easy/Palindrome%20Number) | [LeetCode](https://leetcode.com/problems/palindrome-number/) | Easy | 17 Nov 2026 | 09:58 pm |
