@@ -1,20 +1,14 @@
 class Solution {
     public double myPow(double x, int n) {
-
-        long N = Math.abs((long) n);
-        double ans = recursion(x, N);
-        return n < 0 ? 1 / ans : ans;
+        long abs = Math.abs(n);
+        double res = pow(x, abs);
+        return n  < 0 ? (1/res) : res;
     }
-
-    public double recursion(double x, long n) {
-        if (n == 0) {
-            return 1;
-        }
-        double temp = recursion(x, n / 2);
-        if (n % 2 == 0) {
-            return temp * temp;
-        } else {
-            return x * temp * temp;
-        }
+    public double pow(double x, long y){
+        double temp;
+        if(y == 0) return 1;
+        temp = pow(x , y/2);
+        if(y % 2 == 0) return temp * temp;
+        else return temp * temp * x;
     }
 }
