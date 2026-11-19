@@ -12,3 +12,4 @@
 | 10 | [All Subsequences of String](./GeeksForGeeks/Medium/All%20Subsequences%20of%20String) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/power-set4302/1) | Medium | 15 Nov 2026 | 06:45 pm |
 | 11 | [Palindrome Number](./LeetCode/Easy/Palindrome%20Number) | [LeetCode](https://leetcode.com/problems/palindrome-number/) | Easy | 17 Nov 2026 | 09:58 pm |
 | 12 | [Count Good Numbers](./LeetCode/Medium/Count%20Good%20Numbers) | [LeetCode](https://leetcode.com/problems/count-good-numbers/) | Medium | 19 Nov 2026 | 09:41 am |
+| 13 | [Subsequence with Sum K](./GeeksForGeeks/Medium/Subsequence%20with%20Sum%20K) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/check-if-there-exists-a-subsequence-with-sum-k/1) | Medium | 19 Nov 2026 | 10:53 am |
