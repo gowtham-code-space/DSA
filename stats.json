@@ -1,12 +1,12 @@
 {
-  "totalSolved": 14,
+  "totalSolved": 15,
   "currentStreak": 1,
   "maxStreak": 3,
   "lastSyncDate": "2026-11-21",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 4,
-    "medium": 8,
+    "medium": 9,
     "hard": 1,
     "basic": 1
   },
@@ -24,7 +24,8 @@
     "LeetCode_Palindrome_Number": true,
     "LeetCode_Count_Good_Numbers": true,
     "GeeksForGeeks_Subsequence_with_Sum_K": true,
-    "GeeksForGeeks_Count_Subsets_with_Sum": true
+    "GeeksForGeeks_Count_Subsets_with_Sum": true,
+    "GeeksForGeeks_Consecutive_1's_not_allowed": true
   },
   "activityHistory": {
     "2026-11-02": 1,
@@ -36,9 +37,10 @@
     "2026-11-15": 2,
     "2026-11-17": 1,
     "2026-11-19": 2,
-    "2026-11-21": 1
+    "2026-11-21": 2
   },
   "todayProblems": [
-    "Count Subsets with Sum"
+    "Count Subsets with Sum",
+    "Consecutive 1's not allowed"
   ]
 }

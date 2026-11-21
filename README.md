@@ -14,3 +14,4 @@
 | 12 | [Count Good Numbers](./LeetCode/Medium/Count%20Good%20Numbers) | [LeetCode](https://leetcode.com/problems/count-good-numbers/) | Medium | 19 Nov 2026 | 09:41 am |
 | 13 | [Subsequence with Sum K](./GeeksForGeeks/Medium/Subsequence%20with%20Sum%20K) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/check-if-there-exists-a-subsequence-with-sum-k/1) | Medium | 19 Nov 2026 | 10:53 am |
 | 14 | [Count Subsets with Sum](./GeeksForGeeks/Medium/Count%20Subsets%20with%20Sum) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | Medium | 21 Nov 2026 | 08:14 am |
+| 15 | [Consecutive 1's not allowed](./GeeksForGeeks/Medium/Consecutive%201's%20not%20allowed) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1) | Medium | 21 Nov 2026 | 10:38 am |
